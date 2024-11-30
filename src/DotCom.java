@@ -19,7 +19,7 @@ public class DotCom {
             locationCells.remove(index);
             if (locationCells.isEmpty()) {
                 this.result = "Потопил(а)";
-                System.out.println("Ой, вы потопили" + name + " : ( ");
+                System.out.println("Ой, вы потопили " + name + ":(");
             } else {
                 this.result = "Попал(а)";
             }
