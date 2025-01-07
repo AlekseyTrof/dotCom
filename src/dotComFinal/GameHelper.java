@@ -1,3 +1,5 @@
+package dotComFinal;
+
 import java.io.*;
 import java.util.*;
 
@@ -62,7 +64,7 @@ public class GameHelper {
         int x = 0;
         int row = 0;
         int column = 0;
-        System.out.println();
+//        System.out.println(" ");
         while (x < comSize) {
             grid[coords[x]] = 1;
             row = (int) (coords[x] / gridLength);
@@ -73,7 +75,7 @@ public class GameHelper {
             x++;
 //            System.out.print(" coord" + x + " = " + alphaCells.get(x-1));
         }
-        System.out.println();
+//        System.out.println(" ");
         return alphaCells;
     }
 }

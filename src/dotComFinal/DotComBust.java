@@ -1,3 +1,5 @@
+package dotComFinal;
+
 import java.util.*;
 
 public class DotComBust {
@@ -8,7 +10,7 @@ public class DotComBust {
     public static void main(String[] args) {
         DotComBust game = new DotComBust();
         game.setUpGame();
-        game.starPlaying();
+        game.startPlaying();
     }
 
     private void setUpGame() {
@@ -33,7 +35,7 @@ public class DotComBust {
         }
     }
 
-    private void starPlaying() {
+    private void startPlaying() {
 
         while (!dotComsList.isEmpty()) {
             String userGuess = helper.getUserInput("Сделай ход: ");
